@@ -3,11 +3,11 @@
   flex-direction: column;
   position: relative;
   align-items: center;
-  width: 1366px;
+  // width: 1366px;
   height: 600px;
 
   @media screen and (width >= 768px) and (width <= 1365px) {
-    width: 768px;
+    // width: 768px;
     height: 490px;
   }
 
@@ -42,6 +42,7 @@
   gap: 40px;
   width: 1160px;
   height: 300px;
+  position: relative;
 
   @media screen and (width >= 768px) and (width <= 1365px) {
     width: 560px;
@@ -125,10 +126,9 @@
 }
 
 .juri .arrow {
-  color: red;
+  color: #102654;
   width: 16px;
   height: 32px;
-  top: 60%;
 }
 
 .juri .arrow::after {

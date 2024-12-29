@@ -221,12 +221,21 @@
 
 /* минус - развернутое состояние */
 .faq__details[open]::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
   height: 1px;
   background: linear-gradient(to right, #ffffff 100%, transparent 50%);
+  background-size: 100% 1px;
+  background-position: center;
+  background-repeat: no-repeat;
+  // left: 827px;
   top: 42px;
 
   @media screen and (width >= 320px) and (width <= 767px) {
-    top: 46px;
+    top: 47px;
+    left: 264px;
   }
 }
 
@@ -272,6 +281,7 @@
   }
 }
 
+/* фоны для hover и focus */
 .faq__details:hover::before{
   background: #1c3374;
 }
@@ -281,38 +291,40 @@
   border: 1px solid #1c3374;
 }
 
-// .faq__details:hover::after,
-// .faq__details:focus::after {
-//   content: "";
-//   display: block;
-//   position: absolute;
-//   width: 20px;
-//   height: 20px;
-//   background: linear-gradient(to right, #ffffff 100%, transparent 50%),
-//               linear-gradient(to bottom, #ffffff 100%, transparent 50%);
-//   background-size: 100% 1px, 1px 100%;
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   top: 33px;
-//   left: 827px;
-// }
+/* плюс белый для hover и focus */
+.faq__details:hover::after,
+.faq__details:focus::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(to right, #ffffff 100%, transparent 50%),
+              linear-gradient(to bottom, #ffffff 100%, transparent 50%);
+  background-size: 100% 1px, 1px 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 33px;
+  left: 827px;
+}
 
-// .faq__details:disabled::before{
-//   background: transparent;
-//   border: 1px solid rgba(28, 51, 116, 0.3);
-// }
+.faq__details:disabled::before{
+  background: transparent;
+  border: 1px solid rgba(28, 51, 116, 0.3);
+}
 
-// .faq__details:disabled::after {
-//   content: "";
-//   display: block;
-//   position: absolute;
-//   width: 20px;
-//   height: 20px;
-//   background: linear-gradient(to right, rgba(28, 51, 116, 0.3) 100%, transparent 50%),
-//               linear-gradient(to bottom, rgba(28, 51, 116, 0.3) 100%, transparent 50%);
-//   background-size: 100% 1px, 1px 100%;
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   top: 33px;
-//   left: 827px;
-// }
+.faq__details:disabled::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(to right, rgba(28, 51, 116, 0.3) 100%, transparent 50%),
+              linear-gradient(to bottom, rgba(28, 51, 116, 0.3) 100%, transparent 50%);
+  background-size: 100% 1px, 1px 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 33px;
+  left: 827px;
+}
+
