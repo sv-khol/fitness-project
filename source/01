@@ -1,0 +1,41 @@
+.tren__info {}
+.over { display: none;}
+.tren__info:hover+.over {display: block;}
+
+div tren__info
+    img
+    p
+/div
+div over
+    ul...
+/div
+
+<!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <div>
+            <picture></picture>
+            <span>ana  ivabova</span>
+        </div>
+        <div class="hover">
+            <h3></h3>
+            <ul></ul>
+        </div>
+      </div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>

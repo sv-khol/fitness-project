@@ -1,0 +1,55 @@
+.social-list {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+  position: relative;
+
+  @media screen and (width >= 768px) and (width <= 1365px) {
+    gap: 15px;
+  }
+}
+
+.social-list__link {
+  content: "";
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-list__link:hover {
+  background-color: #74819c;
+}
+
+.social-list__link:hover .vk-icon,
+.social-list__link:hover .ok-icon,
+.social-list__link:hover .rd-icon,
+.social-list__link:focus .vk-icon,
+.social-list__link:focus .ok-icon,
+.social-list__link:focus .rd-icon,
+.social-list__link:active .vk-icon,
+.social-list__link:active .ok-icon,
+.social-list__link:active .rd-icon {
+  fill:#ffffff;
+}
+
+.social-list__link:active {
+  background-color: #102654;
+}
+
+.social-list__link:focus {
+  background-color: #103aae;
+}
+
+.social-list__link:disabled {
+  background-color: #dadada;
+}
+
+.social-list__link:disabled .vk-icon,
+.social-list__link:disabled .ok-icon,
+.social-list__link:disabled .rd-icon {
+  fill:#030a1a;
+}
