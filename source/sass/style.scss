@@ -14,7 +14,6 @@
 @import "blocks/reviews";
 @import "blocks/social-list";
 
-
 body {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
@@ -33,7 +32,7 @@ body {
   margin: 0 auto;
   padding: 1px 0;
 
-  @media screen and (width >= 768px)and (width <= 1365px) {
+  @media screen and (width >= 768px) and (width <= 1365px) {
     width: 678px;
   }
 
@@ -43,17 +42,21 @@ body {
 }
 
 .section-wrapper {
-  margin-left: 103px;
-  margin-right: 103px;
+  // margin-left: 103px;
+  // margin-right: 103px;
+  max-width: 1160px;
+  margin: 0 auto;
 
-  @media screen and (width >= 768px)and (width <= 1365px) {
-    margin-left: 45px;
-    margin-right: 45px;
+  @media screen and (width >= 768px) and (width <= 1365px) {
+    // margin-left: 45px;
+    // margin-right: 45px;
+    max-width: 678px;
   }
 
   @media screen and (width >= 320px) and (width <= 767px) {
-    margin-left: 15px;
-    margin-right: 15px;
+    // margin-left: 15px;
+    // margin-right: 15px;
+    max-width: 290px;
   }
 }
 
@@ -75,7 +78,7 @@ img {
   height: 100px;
   position: absolute;
 
-  @media screen and (width >= 320px)and (width <= 1365px) {
+  @media screen and (width >= 320px) and (width <= 1365px) {
     width: 72px;
     height: 72px;
   }
@@ -113,14 +116,14 @@ a {
 }
 
 .visually-hidden {
-clip: rect(0 0 0 0);
-border: 0;
-width: 1px;
-height: 1px;
-margin: -1px;
-padding: 0;
-position: absolute;
-overflow: hidden;
+  clip: rect(0 0 0 0);
+  border: 0;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  position: absolute;
+  overflow: hidden;
 }
 
 .close-minus {
@@ -174,26 +177,26 @@ overflow: hidden;
 }
 
 .buy__button--light:hover {
-  background: linear-gradient(97.05deg, #ED0233 17.6%, #003EB7 95.31%);
-  color:#ffffff;
+  background: linear-gradient(97.05deg, #ed0233 17.6%, #003eb7 95.31%);
+  color: #ffffff;
   border: none;
 }
 
 .buy__button--light:focus {
-  background: linear-gradient(97.05deg, #ED0233 17.6%, #003EB7 95.31%);
-  color:#ffffff;
+  background: linear-gradient(97.05deg, #ed0233 17.6%, #003eb7 95.31%);
+  color: #ffffff;
   border: 2px solid #000000;
 }
 
 .buy__button--light:active {
-  background: linear-gradient(97.05deg, #ED0233 17.6%, #003EB7 95.31%);
-  color:rgba(255, 255, 255, 0.5);
+  background: linear-gradient(97.05deg, #ed0233 17.6%, #003eb7 95.31%);
+  color: rgba(255, 255, 255, 0.5);
   border: none;
 }
 
 .buy__button--light:disabled {
   background: #ffffff;
-  color:  rgba(16, 38, 84, 0.3);
+  color: rgba(16, 38, 84, 0.3);
   border: 2px solid rgba(16, 38, 84, 0.3);
 }
 

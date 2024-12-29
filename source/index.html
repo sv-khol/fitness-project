@@ -45,10 +45,14 @@
         </div>
         <div class="hero__image">
           <picture>
-            <source media="(min-width: 1365px)" type="image/webp" width="500" height="524" srcset="img/hero/hero-desktop@1x.webp 1x, img/hero/hero-desktop@2x.webp 2x">
-            <source media="(min-width: 767px)" type="image/webp" width="324" height="390" srcset="img/hero/hero-tablet@1x.webp 1x, img/hero/hero-tablet@2x.webp 2x">
-            <source media="(min-width: 1365px)" type="image/jpg" width="500" height="524" srcset="img/hero/hero-desktop@1x.jpg 1x, img/hero/hero-desktop@2x.jpg 2x">
-            <source media="(min-width: 767px)" type="image/jpg" width="324" height="390" srcset="img/hero/hero-tablet@1x.jpg 1x, img/hero/hero-tablet@2x.jpg 2x">
+            <source media="(min-width: 1365px)" type="image/webp" width="500" height="524"
+              srcset="img/hero/hero-desktop@1x.webp 1x, img/hero/hero-desktop@2x.webp 2x">
+            <source media="(min-width: 767px)" type="image/webp" width="324" height="390"
+              srcset="img/hero/hero-tablet@1x.webp 1x, img/hero/hero-tablet@2x.webp 2x">
+            <source media="(min-width: 1365px)" type="image/jpg" width="500" height="524"
+              srcset="img/hero/hero-desktop@1x.jpg 1x, img/hero/hero-desktop@2x.jpg 2x">
+            <source media="(min-width: 767px)" type="image/jpg" width="324" height="390"
+              srcset="img/hero/hero-tablet@1x.jpg 1x, img/hero/hero-tablet@2x.jpg 2x">
             <img class="hero__pic" width="500" height="524" src="img/hero/hero-desktop@1x.jpg" alt="тренер SuperGym">
           </picture>
         </div>
@@ -56,7 +60,7 @@
     </div>
   </section>
 
-  <section class="about" data-test="about">
+  <!-- <section class="about" data-test="about">
     <div class="section-wrapper">
       <div class="about__gym">
         <div class="about__content">
@@ -79,7 +83,7 @@
         </div>
       </div>
       <div class="about__video">
-        <!-- <iframe src="https://www.youtube.com/embed/video-id"></iframe> -->
+        <iframe src="https://www.youtube.com/embed/video-id"></iframe>
         <picture>
           <source media="(min-width: 1365px)" type="image/webp" width="360" height="230" srcset="img/about/about-video-desktop@1x.webp 1x, img/about/about-video-desktop@2x.webp 2x">
           <source media="(min-width: 767px)" type="image/webp" width="270" height="170" srcset="img/about/about-video-tablet@1x.webp 1x, img/about/about-video-tablet@2x.webp 2x">
@@ -107,7 +111,72 @@
         </div>
       </div>
     </div>
+  </section> -->
+
+  <section data-test="about" class="about">
+    <div class="about__gym">
+      <div class="about__content">
+        <h2 class="about__title">Тренажёрный зал</h2>
+        <p class="about__subtitle">Просторный зал площадью 900 кв/м</p>
+        <div class="about__description">
+          <p>Supergym – самый большой фитнес центр за Уралом и идеальное место для укрепления
+            тела и здоровья.Тренажёрный зал оснащён всем необходимым современным оборудованием для всех спортсменов.</p>
+          <p>В зале расположены отдельная зона для Crossfit и кардио-зона с 40 тренажёрами. Также в фитнес
+            центре есть несколько оборудованных залов для различных видов групповых занятий.</p>
+        </div>
+      </div>
+      <div class="about__image">
+        <picture>
+          <source media="(min-width: 1365px)" type="image/webp" width="660" height="400"
+            srcset="img/about/about-desktop@1x.webp 1x, img/about/about-desktop@2x.webp 2x">
+          <source media="(min-width: 767px)" type="image/webp" width="678" height="345"
+            srcset="img/about/about-tablet@1x.webp 1x, img/about/about-tablet@2x.webp 2x">
+          <source media="(min-width: 320px)" type="image/webp" width="320" height="280"
+            srcset="img/about/about-mobile@1x.webp 1x, img/about/about-mobile@2x.webp 2x">
+          <source media="(min-width: 1365px)" type="image/jpg" width="660" height="400"
+            srcset="img/about/about-desktop@1x.jpg 1x, img/about/about-desktop@2x.jpg 2x">
+          <source media="(min-width: 767px)" type="image/jpg" width="678" height="345"
+            srcset="img/about/about-tablet@1x.jpg 1x, img/about/about-tablet@2x.jpg 2x">
+          <img class="about__pic" width="320" height="280" src="img/about/about-mobile@1x.jpg"
+            alt="Тренажёрный зал SuperGym">
+        </picture>
+      </div>
+      <div class="about__video" data-video="https://youtu.be/9TZXsZItgdw">
+        <picture>
+          <source media="(min-width: 1365px)" type="image/webp" width="360" height="230"
+            srcset="img/about/about-video-desktop@1x.webp 1x, img/about/about-video-desktop@2x.webp 2x">
+          <source media="(min-width: 767px)" type="image/webp" width="270" height="170"
+            srcset="img/about/about-video-tablet@1x.webp 1x, img/about/about-video-tablet@2x.webp 2x">
+          <source media="(min-width: 320px)" type="image/webp" width="320" height="170"
+            srcset="img/about/about-video-mobile@1x.webp 1x, img/about/about-video-mobile@2x.webp 2x">
+          <source media="(min-width: 1365px)" type="image/jpg" width="360" height="230"
+            srcset="img/about/about-video-desktop@1x.jpg 1x, img/about/about-video-desktop@2x.jpg 2x">
+          <source media="(min-width: 767px)" type="image/jpg" width="270" height="170"
+            srcset="img/about/about-video-tablet@1x.jpg 1x, img/about/about-video-tablet@2x.jpg 2x">
+          <img class="about__video-pic" width="320" height="170" src="img/about/about-video-mobile@1x.jpg"
+            alt="Видео тренажёрный зал SuperGym">
+        </picture>
+        <div class="about__play-button-wrapper ">
+          <svg class="play-button default">
+            <use href="/__spritemap#sprite-play-button-default"></use>
+          </svg>
+          <svg class="play-button hover">
+            <use href="/__spritemap#sprite-play-button-hover"></use>
+          </svg>
+          <svg class="play-button active">
+            <use href="/__spritemap#sprite-play-button-active"></use>
+          </svg>
+          <svg class="play-button focus">
+            <use href="/__spritemap#sprite-play-button-focus"></use>
+          </svg>
+          <svg class="play-button disabled">
+            <use href="/__spritemap#sprite-play-button-disabled"></use>
+          </svg>
+        </div>
+      </div>
+    </div>
   </section>
+
 
   <section class="price" data-test="price">
     <div class="section-wrapper price-wrapper">
@@ -172,11 +241,16 @@
       </div>
       <div class="games__image">
         <picture>
-          <source media="(min-width: 1365px)" type="image/webp" width="660" height="500" srcset="img/games/games-desktop@1x.webp 1x, img/games/games-desktop@2x.webp 2x">
-          <source media="(min-width: 767px)" type="image/webp" width="378" height="348" srcset="img/games/games-tablet@1x.webp 1x, img/games/games-tablet@2x.webp 2x">
-          <source media="(min-width: 1365px)" type="image/jpg" width="290" height="290" srcset="img/games/games-mobile@1x.jpg 1x, img/games/games-mobile@2x.jpg 2x">
-          <source media="(min-width: 767px)" type="image/jpg" width="378" height="348" srcset="img/games/games-tablet@1x.jpg 1x, img/games/games-tablet@2x.jpg 2x">
-          <img class="games__pic" width="290" height="290" src="img/games/games-mobile@1x.jpg" alt="участник Super Games">
+          <source media="(min-width: 1365px)" type="image/webp" width="660" height="500"
+            srcset="img/games/games-desktop@1x.webp 1x, img/games/games-desktop@2x.webp 2x">
+          <source media="(min-width: 767px)" type="image/webp" width="378" height="348"
+            srcset="img/games/games-tablet@1x.webp 1x, img/games/games-tablet@2x.webp 2x">
+          <source media="(min-width: 1365px)" type="image/jpg" width="290" height="290"
+            srcset="img/games/games-mobile@1x.jpg 1x, img/games/games-mobile@2x.jpg 2x">
+          <source media="(min-width: 767px)" type="image/jpg" width="378" height="348"
+            srcset="img/games/games-tablet@1x.jpg 1x, img/games/games-tablet@2x.jpg 2x">
+          <img class="games__pic" width="290" height="290" src="img/games/games-mobile@1x.jpg"
+            alt="участник Super Games">
         </picture>
       </div>
     </div>
@@ -191,88 +265,108 @@
           <div class="swiper-slide juri__item swiper-slide--one">
             <div class="juri__item-pic">
               <picture>
-                <source media="(min-width: 1365px)" type="image/webp" width="260" height="300" srcset="img/juri/AnPavl@1x.webp 1x, img/juri/AnPavl@2x.webp 2x">
-                <source media="(min-width: 767px)" type="image/webp" width="260" height="300" srcset="img/juri/AnPavl@1x.webp 1x, img/juri/AnPavl@2x.webp 2x">
-                <source media="(min-width: 1365px)" type="image/jpg" width="260" height="300" srcset="img/juri/AnPavl@1x.jpg 1x, img/juri/AnPavl@2x.jpg 2x">
-                <source media="(min-width: 767px)" type="image/jpg" width="260" height="300" srcset="img/juri/AnPavl@1x.jpg 1x, img/juri/AnPavl@2x.jpg 2x">
-                <img class="juri__pic" width="260" height="300" src="img/juri/AnPavl@1x.jpg" alt="Член жюри Игр SuperGames Анна Павлова">
+                <source media="(min-width: 1365px)" type="image/webp" width="260" height="300"
+                  srcset="img/juri/AnPavl@1x.webp 1x, img/juri/AnPavl@2x.webp 2x">
+                <source media="(min-width: 767px)" type="image/webp" width="260" height="300"
+                  srcset="img/juri/AnPavl@1x.webp 1x, img/juri/AnPavl@2x.webp 2x">
+                <source media="(min-width: 1365px)" type="image/jpg" width="260" height="300"
+                  srcset="img/juri/AnPavl@1x.jpg 1x, img/juri/AnPavl@2x.jpg 2x">
+                <source media="(min-width: 767px)" type="image/jpg" width="260" height="300"
+                  srcset="img/juri/AnPavl@1x.jpg 1x, img/juri/AnPavl@2x.jpg 2x">
+                <img class="juri__pic" width="260" height="300" src="img/juri/AnPavl@1x.jpg"
+                  alt="Член жюри Игр SuperGames Анна Павлова">
               </picture>
               <span class="juri__item-name">Анна Павлова</span>
             </div>
             <div class="juri__item-hover juri__person">
-                <h6 class="juri__person-name">Анна Павлова</h6>
-                <p class="juri__person-discipline">CrossFit</p>
-                <ul class="juri__person-about">
-                  <li class="juri__person-fact">Certified Level 3 Trainer</li>
-                  <li class="juri__person-fact">Победитель чемпионата России по CrossFit</li>
-                  <li class="juri__person-fact">Опыт — 6 лет</li>
-                </ul>
+              <h6 class="juri__person-name">Анна Павлова</h6>
+              <p class="juri__person-discipline">CrossFit</p>
+              <ul class="juri__person-about">
+                <li class="juri__person-fact">Certified Level 3 Trainer</li>
+                <li class="juri__person-fact">Победитель чемпионата России по CrossFit</li>
+                <li class="juri__person-fact">Опыт — 6 лет</li>
+              </ul>
             </div>
           </div>
 
           <div class="swiper-slide juri__item swiper-slide--two">
             <div class="juri__item-pic">
               <picture>
-                <source media="(min-width: 1365px)" type="image/webp" width="260" height="300" srcset="img/juri/AlexLavr@1x.webp 1x, img/juri/AlexLavr@2x.webp 2x">
-                <source media="(min-width: 767px)" type="image/webp" width="260" height="300" srcset="img/juri/AlexLavr@1x.webp 1x, img/juri/AlexLavr@2x.webp 2x">
-                <source media="(min-width: 1365px)" type="image/jpg" width="260" height="300" srcset="img/juri/AlexLavr@1x.jpg 1x, img/juri/AlexLavr@2x.jpg 2x">
-                <source media="(min-width: 767px)" type="image/jpg" width="260" height="300" srcset="img/juri/AlexLavr@1x.jpg 1x, img/juri/AlexLavr@2x.jpg 2x">
-                <img class="juri__pic" width="260" height="300" src="img/juri/AlexLavr@1x.jpg" alt="Член жюри Игр SuperGames Алексей Лавров">
+                <source media="(min-width: 1365px)" type="image/webp" width="260" height="300"
+                  srcset="img/juri/AlexLavr@1x.webp 1x, img/juri/AlexLavr@2x.webp 2x">
+                <source media="(min-width: 767px)" type="image/webp" width="260" height="300"
+                  srcset="img/juri/AlexLavr@1x.webp 1x, img/juri/AlexLavr@2x.webp 2x">
+                <source media="(min-width: 1365px)" type="image/jpg" width="260" height="300"
+                  srcset="img/juri/AlexLavr@1x.jpg 1x, img/juri/AlexLavr@2x.jpg 2x">
+                <source media="(min-width: 767px)" type="image/jpg" width="260" height="300"
+                  srcset="img/juri/AlexLavr@1x.jpg 1x, img/juri/AlexLavr@2x.jpg 2x">
+                <img class="juri__pic" width="260" height="300" src="img/juri/AlexLavr@1x.jpg"
+                  alt="Член жюри Игр SuperGames Алексей Лавров">
               </picture>
               <span class="juri__item-name">Алексей Лавров</span>
             </div>
             <div class="juri__item-hover juri__person">
-                <h6 class="juri__person-name">Алексей Лавров</h6>
-                <p class="juri__person-discipline">CrossFit</p>
-                <ul class="juri__person-about">
-                  <li class="juri__person-fact">Certified Level 3 Trainer</li>
-                  <li class="juri__person-fact">Победитель чемпионата России по CrossFit</li>
-                  <li class="juri__person-fact">Опыт — 6 лет</li>
-                </ul>
+              <h6 class="juri__person-name">Алексей Лавров</h6>
+              <p class="juri__person-discipline">CrossFit</p>
+              <ul class="juri__person-about">
+                <li class="juri__person-fact">Certified Level 3 Trainer</li>
+                <li class="juri__person-fact">Победитель чемпионата России по CrossFit</li>
+                <li class="juri__person-fact">Опыт — 6 лет</li>
+              </ul>
             </div>
           </div>
 
           <div class="swiper-slide juri__item swiper-slide--three">
             <div class="juri__item-pic">
               <picture>
-                <source media="(min-width: 1365px)" type="image/webp" width="260" height="300" srcset="img/juri/AlndrPash@1x.webp 1x, img/juri/AlndrPash@2x.webp 2x">
-                <source media="(min-width: 767px)" type="image/webp" width="260" height="300" srcset="img/juri/AlndrPash@1x.webp 1x, img/juri/AlndrPash@2x.webp 2x">
-                <source media="(min-width: 1365px)" type="image/jpg" width="260" height="300" srcset="img/juri/AlndrPash@1x.jpg 1x, img/juri/AlndrPash@2x.jpg 2x">
-                <source media="(min-width: 767px)" type="image/jpg" width="260" height="300" srcset="img/juri/AlndrPash@1x.jpg 1x, img/juri/AlndrPash@2x.jpg 2x">
-                <img class="juri__pic" width="260" height="300" src="img/juri/AlndrPash@1x.jpg" alt="Член жюри Игр SuperGames Александр Пашков">
+                <source media="(min-width: 1365px)" type="image/webp" width="260" height="300"
+                  srcset="img/juri/AlndrPash@1x.webp 1x, img/juri/AlndrPash@2x.webp 2x">
+                <source media="(min-width: 767px)" type="image/webp" width="260" height="300"
+                  srcset="img/juri/AlndrPash@1x.webp 1x, img/juri/AlndrPash@2x.webp 2x">
+                <source media="(min-width: 1365px)" type="image/jpg" width="260" height="300"
+                  srcset="img/juri/AlndrPash@1x.jpg 1x, img/juri/AlndrPash@2x.jpg 2x">
+                <source media="(min-width: 767px)" type="image/jpg" width="260" height="300"
+                  srcset="img/juri/AlndrPash@1x.jpg 1x, img/juri/AlndrPash@2x.jpg 2x">
+                <img class="juri__pic" width="260" height="300" src="img/juri/AlndrPash@1x.jpg"
+                  alt="Член жюри Игр SuperGames Александр Пашков">
               </picture>
               <span class="juri__item-name">Александр Пашков</span>
             </div>
             <div class="juri__item-hover juri__person">
-                <h6 class="juri__person-name">Александр Пашков</h6>
-                <p class="juri__person-discipline">CrossFit</p>
-                <ul class="juri__person-about">
-                  <li class="juri__person-fact">Certified Level 3 Trainer</li>
-                  <li class="juri__person-fact">Победитель чемпионата России по CrossFit</li>
-                  <li class="juri__person-fact">Опыт — 6 лет</li>
-                </ul>
+              <h6 class="juri__person-name">Александр Пашков</h6>
+              <p class="juri__person-discipline">CrossFit</p>
+              <ul class="juri__person-about">
+                <li class="juri__person-fact">Certified Level 3 Trainer</li>
+                <li class="juri__person-fact">Победитель чемпионата России по CrossFit</li>
+                <li class="juri__person-fact">Опыт — 6 лет</li>
+              </ul>
             </div>
           </div>
 
           <div class="swiper-slide juri__item swiper-slide--four">
             <div class="juri__item-pic">
               <picture>
-                <source media="(min-width: 1365px)" type="image/webp" width="260" height="300" srcset="img/juri/MarKet@1x.webp 1x, img/juri/MarKet@2x.webp 2x">
-                <source media="(min-width: 767px)" type="image/webp" width="260" height="300" srcset="img/juri/MarKet@1x.webp 1x, img/juri/MarKet@2x.webp 2x">
-                <source media="(min-width: 1365px)" type="image/jpg" width="260" height="300" srcset="img/juri/MarKet@1x.jpg 1x, img/juri/MarKet@2x.jpg 2x">
-                <source media="(min-width: 767px)" type="image/jpg" width="260" height="300" srcset="img/juri/MarKet@1x.jpg 1x, img/juri/MarKet@2x.jpg 2x">
-                <img class="juri__pic" width="260" height="300" src="img/juri/MarKet@1x.jpg" alt="Член жюри Игр SuperGames Мария Кетова">
+                <source media="(min-width: 1365px)" type="image/webp" width="260" height="300"
+                  srcset="img/juri/MarKet@1x.webp 1x, img/juri/MarKet@2x.webp 2x">
+                <source media="(min-width: 767px)" type="image/webp" width="260" height="300"
+                  srcset="img/juri/MarKet@1x.webp 1x, img/juri/MarKet@2x.webp 2x">
+                <source media="(min-width: 1365px)" type="image/jpg" width="260" height="300"
+                  srcset="img/juri/MarKet@1x.jpg 1x, img/juri/MarKet@2x.jpg 2x">
+                <source media="(min-width: 767px)" type="image/jpg" width="260" height="300"
+                  srcset="img/juri/MarKet@1x.jpg 1x, img/juri/MarKet@2x.jpg 2x">
+                <img class="juri__pic" width="260" height="300" src="img/juri/MarKet@1x.jpg"
+                  alt="Член жюри Игр SuperGames Мария Кетова">
               </picture>
               <span class="juri__item-name">Мария Кетова</span>
             </div>
             <div class="juri__item-hover juri__person">
-                <h6 class="juri__person-name">Мария Кетова</h6>
-                <p class="juri__person-discipline">CrossFit</p>
-                <ul class="juri__person-about">
-                  <li class="juri__person-fact">Certified Level 3 Trainer</li>
-                  <li class="juri__person-fact">Победитель чемпионата России по CrossFit</li>
-                  <li class="juri__person-fact">Опыт — 6 лет</li>
-                </ul>
+              <h6 class="juri__person-name">Мария Кетова</h6>
+              <p class="juri__person-discipline">CrossFit</p>
+              <ul class="juri__person-about">
+                <li class="juri__person-fact">Certified Level 3 Trainer</li>
+                <li class="juri__person-fact">Победитель чемпионата России по CrossFit</li>
+                <li class="juri__person-fact">Опыт — 6 лет</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -296,7 +390,7 @@
           <p class="features__description">
             <span class="title">Площадь</span>
             <span class="text">Занимайтесь без очередей и толкучки</span>
-            </p>
+          </p>
         </li>
         <li class="features__card features__card--two">
           <p class="features__card-value">
@@ -306,8 +400,8 @@
           <p class="features__description">
             <span class="title">Собственная парковка</span>
             <span class="text">Вы всегда найдёте место для своей машины на нашей парковке</span>
-            </p>
-          </li>
+          </p>
+        </li>
 
         <li class="features__card features__card--three features__card--special">
           <p class="features__card-value">
@@ -327,8 +421,8 @@
           <p class="features__description">
             <span class="title">Комфорт</span>
             <span class="text">Просторные раздевалки, душевые, фен, Wi-Fi, кулеры</span>
-            </p>
-          </li>
+          </p>
+        </li>
 
         <li class="features__card features__card--five">
           <p class="features__card-value">
@@ -338,11 +432,11 @@
           <p class="features__description">
             <span class="title">Тренерский опыт</span>
             <span class="text">Добивайтесь своих целей быстрее с профессиональным тренером</span>
-            </p>
-          </li>
-        </ol>
+          </p>
+        </li>
+      </ol>
     </div>
-    </section>
+  </section>
 
   <section class="offers" data-test="offers">
     <div class="section-wrapper offers-wrapper">
@@ -357,26 +451,31 @@
           </div>
           <div class="offers__image">
             <picture>
-              <source media="(min-width: 1365px)" type="image/webp" width="280" height="460" srcset="img/offers/offers-desktop@1x.webp 1x, img/offers/offers-desktop@2x.webp 2x">
-              <source media="(min-width: 767px)" type="image/webp" width="400" height="462" srcset="img/offers/offers-tablet@1x.webp 1x, img/offers/offers-tablet@2x.webp 2x">
-              <source media="(min-width: 1365px)" type="image/jpg" width="320" height="360" srcset="img/offers/offers-mobile@1x.jpg 1x, img/offers/offers-mobile@2x.jpg 2x">
-              <source media="(min-width: 767px)" type="image/jpg" width="378" height="348" srcset="img/offers/offers-tablet@1x.jpg 1x, img/offers/offers-tablet@2x.jpg 2x">
-              <img class="offers__pic" width="320" height="360" src="img/offers/offers-mobile@1x.jpg" alt="Клиент SuperGYm">
+              <source media="(min-width: 1365px)" type="image/webp" width="280" height="460"
+                srcset="img/offers/offers-desktop@1x.webp 1x, img/offers/offers-desktop@2x.webp 2x">
+              <source media="(min-width: 767px)" type="image/webp" width="400" height="462"
+                srcset="img/offers/offers-tablet@1x.webp 1x, img/offers/offers-tablet@2x.webp 2x">
+              <source media="(min-width: 1365px)" type="image/jpg" width="320" height="360"
+                srcset="img/offers/offers-mobile@1x.jpg 1x, img/offers/offers-mobile@2x.jpg 2x">
+              <source media="(min-width: 767px)" type="image/jpg" width="378" height="348"
+                srcset="img/offers/offers-tablet@1x.jpg 1x, img/offers/offers-tablet@2x.jpg 2x">
+              <img class="offers__pic" width="320" height="360" src="img/offers/offers-mobile@1x.jpg"
+                alt="Клиент SuperGYm">
             </picture>
           </div>
         </div>
         <div class="offers__card offers__card--two">
           <div class="offers__card-info">
-          <h4 class="offers__card-title">Месяц бесплатно</h3>
-          <p class="offers__card-text">Приведи друга, получи абонемент в подарок</p>
-          <a class="offers__card-link" href="#">Подробнее</a>
+            <h4 class="offers__card-title">Месяц бесплатно</h3>
+              <p class="offers__card-text">Приведи друга, получи абонемент в подарок</p>
+              <a class="offers__card-link" href="#">Подробнее</a>
           </div>
         </div>
         <div class="offers__card offers__card--three">
           <div class="offers__card-info">
-          <h4 class="offers__card-title">Скидка 20%</h3>
-          <p class="offers__card-text">Корпоративный фитнес с командой</p>
-          <a class="offers__card-link" href="#">Подробнее</a>
+            <h4 class="offers__card-title">Скидка 20%</h3>
+              <p class="offers__card-text">Корпоративный фитнес с командой</p>
+              <a class="offers__card-link" href="#">Подробнее</a>
           </div>
         </div>
       </div>
@@ -398,11 +497,15 @@
             <div class="faq__list">
               <details class="faq__details open">
                 <summary class="faq__question">Как стать членом фитнес-центра?</summary>
-                <p class="faq__answer">При первом посещении и покупке абонемента, необходимо заполнить анкету и подписать договор. При покупке абонемента онлайн, анкета также заполняется онлайн и договор придёт вам на почту.</p>
+                <p class="faq__answer">При первом посещении и покупке абонемента, необходимо заполнить анкету и
+                  подписать договор. При покупке абонемента онлайн, анкета также заполняется онлайн и договор придёт вам
+                  на почту.</p>
               </details>
               <details class="faq__details">
                 <summary class="faq__question">Где можно посмотреть расписание?</summary>
-                <p class="faq__answer">Вы можете ознакомиться c расписание на стойке информации, на нашем официальном сайте. Также есть возможность оформить подписку на наши новости и получать расписание и обновления на почту каждую неделю.</p>
+                <p class="faq__answer">Вы можете ознакомиться c расписание на стойке информации, на нашем официальном
+                  сайте. Также есть возможность оформить подписку на наши новости и получать расписание и обновления на
+                  почту каждую неделю.</p>
               </details>
               <details class="faq__details">
                 <summary class="faq__question">Есть кулеры в центре? Предоставляются полотенца?</summary>
@@ -487,38 +590,38 @@
   </section>
 
   <section class="form-and-contacts" data-test="form">
-  <div class="form-and-contacts-wrapper">
-    <div class="form">
-      <h3 class="form__title">Бесплатное занятие</h3>
-      <form class="form__boxes">
-        <input class="form__input" type="text" placeholder="Имя">
-        <input class="form__input" type="text" placeholder="Телефон">
-        <button class="form__button" type="submit">ОТПРАВИТЬ</button>
-      </form>
+    <div class="form-and-contacts-wrapper">
+      <div class="form">
+        <h3 class="form__title">Бесплатное занятие</h3>
+        <form class="form__boxes">
+          <input class="form__input" type="text" placeholder="Имя">
+          <input class="form__input" type="text" placeholder="Телефон">
+          <button class="form__button" type="submit">ОТПРАВИТЬ</button>
+        </form>
 
+      </div>
+      <div class="contacts">
+        <h3 class="contacts__title">Контакты</h3>
+        <ol class="contacts__details">
+          <li class="contacts__details-item contacts__details-address contacts__details-item--one">
+            <h5 class="contacts__details-heading">Адрес:</h5>
+            <p class="contacts__details-text">г. Омск, ул. 60 лет Октября, 7</p>
+          </li>
+          <li class="contacts__details-item contacts__details-phone contacts__details-item--two">
+            <h5 class="contacts__details-heading">Телефон:</h5>
+            <a class="phone" href="tel:+88005555555">8 800 555-55-55</a>
+          </li>
+          <li class="contacts__details-item contacts__details-schedule contacts__details-item--three">
+            <h5 class="contacts__details-heading">График работы:</h5>
+            <p class="contacts__details-text">Пн-Вс: с 8:00 до 22:00</p>
+          </li>
+          <li class="contacts__details-item contacts__details-email contacts__details-item--four">
+            <h5 class="contacts__details-heading">Email:</h5>
+            <a class="e-mail" href="mailto:омск@supergym.ru">омск@supergym.ru</a>
+          </li>
+        </ol>
+      </div>
     </div>
-    <div class="contacts">
-      <h3 class="contacts__title">Контакты</h3>
-      <ol class="contacts__details">
-       <li class="contacts__details-item contacts__details-address contacts__details-item--one">
-          <h5 class="contacts__details-heading">Адрес:</h5>
-          <p class="contacts__details-text">г. Омск, ул. 60 лет Октября, 7</p>
-       </li>
-       <li class="contacts__details-item contacts__details-phone contacts__details-item--two">
-          <h5 class="contacts__details-heading">Телефон:</h5>
-          <a class="phone" href="tel:+88005555555">8 800 555-55-55</a>
-        </li>
-        <li class="contacts__details-item contacts__details-schedule contacts__details-item--three">
-          <h5 class="contacts__details-heading">График работы:</h5>
-          <p class="contacts__details-text">Пн-Вс: с 8:00 до 22:00</p>
-        </li>
-        <li class="contacts__details-item contacts__details-email contacts__details-item--four">
-          <h5 class="contacts__details-heading">Email:</h5>
-          <a class="e-mail" href="mailto:омск@supergym.ru">омск@supergym.ru</a>
-      </li>
-    </ol>
-    </div>
-  </div>
   </section>
 
   <section class="footer" data-test="footer">
@@ -529,50 +632,50 @@
         </svg>
       </a>
 
-        <ul class="footer__links-list">
-          <li class="footer__links-item">
-            <a class="footer-link services-link" href="#">Услуги</a>
-          </li>
-          <li class="footer__links-item">
-            <a class="footer-link cards-link" href="#">Абонементы</a>
-          </li>
-          <li class="footer__links-item">
-            <a class="footer-link offers-link" href="#">Акции</a>
-          </li>
-          <li class="footer__links-item">
-            <a class="footer-link trainers-link" href="#">Тренеры</a>
-          </li>
-          <li class="footer__links-item">
-            <a class="footer-link timetable-link" href="#">Расписание</a>
-          </li>
-        </ul>
+      <ul class="footer__links-list">
+        <li class="footer__links-item">
+          <a class="footer-link services-link" href="#">Услуги</a>
+        </li>
+        <li class="footer__links-item">
+          <a class="footer-link cards-link" href="#">Абонементы</a>
+        </li>
+        <li class="footer__links-item">
+          <a class="footer-link offers-link" href="#">Акции</a>
+        </li>
+        <li class="footer__links-item">
+          <a class="footer-link trainers-link" href="#">Тренеры</a>
+        </li>
+        <li class="footer__links-item">
+          <a class="footer-link timetable-link" href="#">Расписание</a>
+        </li>
+      </ul>
 
-        <ul class="social-list">
-          <li class="social-list__item">
-            <a class="social-list__link" href="#" disabled>
-              <span class="visually-hidden">Мы в ВKонтакте</span>
-              <svg class="vk-icon">
-                <use href="/__spritemap#sprite-vk"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a class="social-list__link" href="#">
-              <span class="visually-hidden">Мы в Одноклассниках</span>
-              <svg class="ok-icon">
-                <use href="/__spritemap#sprite-ok"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a class="social-list__link" href="#">
-              <span class="visually-hidden">Мы на Reddit</span>
-              <svg class="rd-icon">
-                <use href="/__spritemap#sprite-rd"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="#" disabled>
+            <span class="visually-hidden">Мы в ВKонтакте</span>
+            <svg class="vk-icon">
+              <use href="/__spritemap#sprite-vk"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="#">
+            <span class="visually-hidden">Мы в Одноклассниках</span>
+            <svg class="ok-icon">
+              <use href="/__spritemap#sprite-ok"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="#">
+            <span class="visually-hidden">Мы на Reddit</span>
+            <svg class="rd-icon">
+              <use href="/__spritemap#sprite-rd"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
   </section>
 

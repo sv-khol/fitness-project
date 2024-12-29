@@ -1,25 +1,29 @@
 .price {
+  // display: none;
   position: relative;
-  height: 791px;
-  max-width: 1366px;
+  // height: 791px;
+  // max-width: 1366px;
   background-color: #f8f9fc;
   background-image: url("../img/price/disks.png");
   background-repeat: no-repeat;
-  background-size: 28%;
-  background-position: top 351px left 1058px;
+  // background-size: 28%;
+  background-size: 280px;
+  // background-position: top 351px left 1058px;
+  background-position: bottom right -70px;
 
   @media screen and (width >= 768px) and (width <= 1365px) {
-    height: 1730px;
-    max-width: 768px;
-    background-size: 42%;
-    background-position: bottom 0 left 444px;
+    // height: 1730px;
+    // max-width: 768px;
+    // background-size: 42%;
+    background-size: 260px;
+    background-position: bottom right;
     padding-top: 60px;
     padding-bottom: 60px;
   }
 
   @media screen and (width >= 320px) and (width <= 767px) {
     height: 1420px;
-    max-width: 320px;
+    // max-width: 320px;
     background-image: none;
   }
 }
@@ -114,7 +118,7 @@
 }
 
 .price__tab:hover {
-  color:rgba(16, 38, 84, 0.7);
+  color: rgba(16, 38, 84, 0.7);
   border-bottom: 2px solid #787878;
 }
 
@@ -124,7 +128,7 @@
 }
 
 .price__tab:focus {
-  color:#102654;
+  color: #102654;
   border-bottom: 2px solid #102654;
 }
 
@@ -133,13 +137,14 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
-  max-width: 1160px;
+  // max-width: 1160px;
 
   @media screen and (width >= 768px) and (width <= 1365px) {
     display: flex;
     flex-direction: column;
-    padding-left: 194px;
-    padding-right: 194px;
+    align-items: center;
+    // padding-left: 194px;
+    // padding-right: 194px;
   }
 
   @media screen and (width >= 320px) and (width <= 767px) {
@@ -158,6 +163,7 @@
   padding: 58px;
   position: relative;
   height: 447px;
+  width: 380px;
   border: 7px solid #ffffff;
 
   @media screen and (width >= 768px) and (width <= 1365px) {
@@ -166,19 +172,20 @@
 
   @media screen and (width >= 320px) and (width <= 767px) {
     height: 384px;
+    width: 290px;
     padding: 43px 35px;
   }
 }
 
 .price__card:hover,
 .price__card:focus {
-  border-image-source: linear-gradient(148.82deg, #D10A42 0.85%, #00359F 100%);
+  border-image-source: linear-gradient(148.82deg, #d10a42 0.85%, #00359f 100%);
   border-image-slice: 1;
 }
 
 .price__card:hover .price__card-button,
 .price__card:focus .price__card-button {
-  background: linear-gradient(97.05deg, #ED0233 17.6%, #003EB7 95.31%);
+  background: linear-gradient(97.05deg, #ed0233 17.6%, #003eb7 95.31%);
   border: none;
   color: #ffffff;
 }
